@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BFCFA346-8A89-4329-994D-AEA04CE62F69}</ProjectGuid>
     <RootNamespace>CudaKernels</RootNamespace>
-    <ProjectName>NewModuleCuda</ProjectName>
+    <ProjectName>RegressionModuleCuda</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -186,7 +186,7 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="SomeNode.cu" />
+    <CudaCompile Include="RegressionObserverKernel.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

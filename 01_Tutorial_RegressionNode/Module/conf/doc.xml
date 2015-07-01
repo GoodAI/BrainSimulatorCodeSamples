@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RegressionModule</name>
+    </assembly>
+    <members>
+        <member name="T:RegressionModule.MyRegressionNode">
+            <author>Michal Vlasák</author>
+            <status>Work in progress</status>
+            <summary>Regression node</summary>
+            <description>Will perform online linear regression</description>
+        </member>
+    </members>
+</doc>
