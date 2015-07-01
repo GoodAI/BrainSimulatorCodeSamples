@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Configuration  RootNamespace="NewModule">
+<Configuration  RootNamespace="RegressionModule">
   <KnownNodes>
     <Node type="RegressionModule.MyRegressionNode" CanBeAdded="true">
-      <Observer type="BrainSimulator.Observers.MyRegressionObserver" />
+      <Observer type="RegressionModule.Observers.MyRegressionObserver" />
     </Node>
   </KnownNodes>
 </Configuration>

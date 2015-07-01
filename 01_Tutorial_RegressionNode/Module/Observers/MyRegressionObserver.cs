@@ -1,14 +1,14 @@
-﻿using BrainSimulator.Testing;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BrainSimulator.Utils;
 using System.ComponentModel;
 using ManagedCuda;
-using BrainSimulator.Observers;
-using BrainSimulator;
+
+using GoodAI.Core.Utils;
+using GoodAI.Core;
+using GoodAI.Core.Observers;
 
 namespace RegressionModule.Observers
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using BrainSimulator.Configuration;
+using GoodAI.Core.Configuration;
 
 namespace NewModule.Versioning
 {

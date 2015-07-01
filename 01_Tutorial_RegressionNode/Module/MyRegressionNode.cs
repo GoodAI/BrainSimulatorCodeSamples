@@ -1,15 +1,16 @@
-﻿using BrainSimulator.Memory;
-using BrainSimulator.Nodes;
-using BrainSimulator.Observers;
-using BrainSimulator.Task;
-using BrainSimulator.Utils;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using YAXLib;
+
+using GoodAI.Core.Memory;
+using GoodAI.Core.Nodes;
+using GoodAI.Core.Observers;
+using GoodAI.Core.Task;
+using GoodAI.Core.Utils;
 
 namespace RegressionModule
 {
