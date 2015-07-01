@@ -14,10 +14,11 @@ using GoodAI.Core.Utils;
 
 namespace RegressionModule
 {
-    /// <author>Michal Vlasák</author>
+    /// <author>GoodAI</author>
+    /// <meta>mv</meta>
     /// <status>Work in progress</status>
     /// <summary>Regression node</summary>
-    /// <description>Will perform online linear regression</description>
+    /// <description>Perform online linear regression</description>
     class MyRegressionNode : MyWorkingNode
     {
         [MyInputBlock(0)]

@@ -20,8 +20,8 @@ namespace RegressionModule.Observers
 
         public MyRegressionObserver()
         {
-            m_kernel = MyKernelFactory.Instance.Kernel(@"Observers\RegressionObserverKernel");
-            m_lineKernel = MyKernelFactory.Instance.Kernel(@"Observers\DrawLineKernel");
+            m_kernel = MyKernelFactory.Instance.Kernel(@"RegressionObserverKernel");
+            m_lineKernel = MyKernelFactory.Instance.Kernel(@"DrawLineKernel");
             Size = 200;
         }
 
